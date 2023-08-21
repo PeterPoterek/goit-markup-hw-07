@@ -24,17 +24,17 @@ body {
 }
 
 .section:not(:first-child):nth-child(2n) {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section:nth-child(2n + 3) {
-  padding-bottom: 120px;
+  padding-bottom: 96px;
 }
 
 .section:last-child {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 h1,
@@ -479,7 +479,7 @@ input[type="number"] {
   flex-direction: column;
 }
 .company-values-wrapper {
-  max-width: 264px;
+  max-width: 396px;
   display: flex;
   flex-direction: column;
 }
