@@ -750,6 +750,9 @@ input[type="number"] {
 /* End of Our team section */
 
 /* Customers section */
+.customers-wrapper {
+  max-width: 396px;
+}
 .customers-title {
   color: var(--color-navy-blue);
 
@@ -882,7 +885,8 @@ input[type="number"] {
 
   padding: 8px 16px;
 
-  width: 398px;
+  max-width: 398px;
+  width: 100%;
 
   outline: none;
 }
@@ -1101,6 +1105,17 @@ input[type="number"] {
   }
   .company-values-label {
     text-align: left;
+  }
+  .our-team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 64px 24px;
+  }
+  .customers-wrapper {
+    max-width: 552px;
+  }
+  .customers-list {
   }
 }
 @media screen and (min-width: 1200px) {
