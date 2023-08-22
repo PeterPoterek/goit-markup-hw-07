@@ -19,6 +19,93 @@
   </head>
   <body>
     <header class="header-container">
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="mobile-close-button" type="button">
+          <svg class="mobile-button-icon-container" width="24" height="24">
+            <use
+              class="mobile-button-icon"
+              width="8"
+              height="8"
+              x="8"
+              y="8"
+              href="./images/icons.svg#icon-cross"
+            ></use>
+          </svg>
+        </button>
+        <div>
+          <ul class="mobile-menu-link-list">
+            <li><a class="mobile-menu-link-item-current" href="">Studio</a></li>
+            <li><a class="mobile-menu-link-item" href="">Portfolio</a></li>
+            <li><a class="mobile-menu-link-item" href="">Contacts</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="mobile-menu-contact-list">
+            <li>
+              <a class="mobile-menu-contact-phone" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+
+            <li>
+              <a class="mobile-menu-contact-email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-menu-social-list">
+            <li>
+              <a href="">
+                <svg class="our-team-icon-container" width="40" height="40">
+                  <use
+                    href="./images/icons.svg#icon-instagram"
+                    width="24"
+                    height="24"
+                    x="8"
+                    y="8"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg class="our-team-icon-container" width="40" height="40">
+                  <use
+                    href="./images/icons.svg#icon-twitter"
+                    width="24"
+                    height="24"
+                    x="8"
+                    y="8"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg class="our-team-icon-container" width="40" height="40">
+                  <use
+                    href="./images/icons.svg#icon-facebook"
+                    width="24"
+                    height="24"
+                    x="8"
+                    y="8"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a href="">
+                <svg class="our-team-icon-container" width="40" height="40">
+                  <use
+                    href="./images/icons.svg#icon-linkedin"
+                    width="24"
+                    height="24"
+                    x="8"
+                    y="8"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="container">
         <div class="header-wrapper">
           <div class="header-navcontainer">
@@ -740,5 +827,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
