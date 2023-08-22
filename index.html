@@ -20,7 +20,7 @@
   <body>
     <header class="header-container">
       <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="mobile-close-button" type="button">
+        <button class="mobile-close-button js-close-menu" type="button">
           <svg class="mobile-button-icon-container" width="24" height="24">
             <use
               class="mobile-button-icon"
@@ -124,9 +124,16 @@
           </div>
 
           <div>
-            <svg width="32" height="32" fill="red">
-              <use href="./images/icons.svg#icon-menuhamburger"></use>
-            </svg>
+            <button
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+              type="button"
+            >
+              <svg width="32" height="32" fill="red">
+                <use href="./images/icons.svg#icon-menuhamburger"></use>
+              </svg>
+            </button>
           </div>
 
           <ul class="contact-list">
