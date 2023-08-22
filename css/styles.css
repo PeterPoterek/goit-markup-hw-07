@@ -425,9 +425,9 @@ input[type="number"] {
 .header-container {
   background-color: var(--color-white);
 
-  padding: 24px 24px;
-
   border-bottom: 1px solid var(--color-cornflower);
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .header-wrapper {
   display: flex;
@@ -436,7 +436,9 @@ input[type="number"] {
 }
 .header-navcontainer {
   display: flex;
-  gap: 76px;
+  gap: 120px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo {
   color: var(--color-navy-blue);
@@ -462,16 +464,12 @@ input[type="number"] {
 }
 
 .menu-list {
-  display: flex;
-  gap: 40px;
-
-  padding: 0;
-
   display: none;
 }
 .menu-item {
   color: var(--color-navy-blue);
 
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -501,19 +499,15 @@ input[type="number"] {
   border-radius: 2px;
 }
 .contact-list {
-  display: flex;
-  gap: 40px;
-
-  padding: 0;
-
   display: none;
 }
 
 .contact-item {
   color: var(--color-slate);
 
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  font-size: 12px;
+  line-height: 1.166666;
+  letter-spacing: 0.48px;
 
   text-decoration: none;
 
@@ -1072,6 +1066,19 @@ input[type="number"] {
   }
   .modal-container {
     max-width: 408px;
+  }
+  .menu-list {
+    display: flex;
+    gap: 40px;
+
+    padding: 0;
+  }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
