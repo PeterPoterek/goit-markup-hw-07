@@ -1128,15 +1128,21 @@ input[type="number"] {
     max-width: 552px;
   }
 
-  .footer-container {
-    justify-content: center;
-    align-items: center;
+  .footer-section {
+    display: flex;
+  }
+
+  .footer-text-container {
+    justify-content: start;
+    align-items: start;
+  }
+  .footer-logo {
+    text-align: left;
   }
   .footer-wraper {
     flex-direction: row;
     gap: 24px;
     justify-content: center;
-    align-items: center;
     max-width: 496px;
   }
 
@@ -1146,14 +1152,15 @@ input[type="number"] {
   .newsletter-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 48px;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 0;
   }
   .footer-title {
     text-align: left;
   }
   .footer-newsletter-input {
     width: 264px;
+    margin-right: 24px;
   }
 }
 @media screen and (min-width: 1200px) {
