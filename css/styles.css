@@ -793,10 +793,15 @@ input[type="number"] {
 /* End of Customers section */
 
 /* Footer section */
-.footer-container {
+.footer-section {
   background-color: var(--color-navy-blue);
   padding-top: 101.5px;
   padding-bottom: 100px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 .footer-wraper {
   display: flex;
@@ -1122,7 +1127,33 @@ input[type="number"] {
   .customers-wrapper {
     max-width: 552px;
   }
-  .customers-list {
+
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-wraper {
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    max-width: 496px;
+  }
+
+  .newsletter-container {
+    max-width: 496px;
+  }
+  .newsletter-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    justify-content: space-between;
+  }
+  .footer-title {
+    text-align: left;
+  }
+  .footer-newsletter-input {
+    width: 264px;
   }
 }
 @media screen and (min-width: 1200px) {
