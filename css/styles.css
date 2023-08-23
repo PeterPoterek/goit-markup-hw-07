@@ -1092,6 +1092,12 @@ input[type="number"] {
     line-height: 1.07142;
     letter-spacing: 1.12px;
   }
+  .company-values-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 736px;
+  }
   .company-values-list {
     display: flex;
     flex-direction: row;
@@ -1101,7 +1107,7 @@ input[type="number"] {
     gap: 72px 24px;
   }
   .company-values-wrapper {
-    max-width: 356px;
+    max-width: 351px;
   }
   .company-values-label {
     text-align: left;
@@ -1111,6 +1117,7 @@ input[type="number"] {
     flex-wrap: wrap;
 
     gap: 64px 24px;
+    max-width: 552px;
   }
   .customers-wrapper {
     max-width: 552px;
