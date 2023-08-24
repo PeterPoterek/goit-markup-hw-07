@@ -809,7 +809,7 @@ input[type="number"] {
   flex-direction: column;
   gap: 72px;
 }
-.footer-wraper {
+.footer-wrapper {
   display: flex;
   gap: 72px;
   flex-direction: column;
@@ -1145,7 +1145,7 @@ input[type="number"] {
   .footer-logo {
     text-align: left;
   }
-  .footer-wraper {
+  .footer-wrapper {
     flex-direction: row;
     gap: 24px;
     justify-content: center;
@@ -1177,7 +1177,7 @@ input[type="number"] {
     margin-left: 76px;
     margin-right: 332px;
   }
-  .footer-wraper {
+  .footer-wrapper {
     flex-direction: row;
   }
   .contact-list {
@@ -1229,6 +1229,18 @@ input[type="number"] {
   .customers-list {
     flex-wrap: nowrap;
     gap: 24px;
+  }
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 72px;
+  }
+  .footer-wrapper {
+    max-width: 592px;
+    gap: 120px;
+  }
+  .footer-text {
+    width: 264px;
   }
 }
 /* End of Media Queries */
