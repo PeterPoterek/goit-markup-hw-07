@@ -456,7 +456,10 @@ input[type="number"] {
 .header-logo-highlighted {
   color: var(--color-iris);
 }
-
+.menu-toggle {
+  border: none;
+  background-color: transparent;
+}
 .header-menu-button {
   border: none;
   cursor: pointer;
