@@ -1218,5 +1218,10 @@ input[type="number"] {
     font-size: 16px;
     font-weight: 400;
   }
+
+  .our-team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }
 /* End of Media Queries */
