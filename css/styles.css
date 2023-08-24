@@ -1223,5 +1223,12 @@ input[type="number"] {
     flex-wrap: nowrap;
     gap: 24px;
   }
+  .customers-wrapper {
+    max-width: 1128px;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }
 /* End of Media Queries */
