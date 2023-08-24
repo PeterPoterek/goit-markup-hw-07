@@ -170,6 +170,8 @@ menu {
   gap: 56px;
 
   padding-top: 48px;
+
+  max-width: 328px;
 }
 /* end of mobile menu */
 
@@ -426,6 +428,7 @@ input[type="number"] {
   background-color: var(--color-white);
 
   border-bottom: 1px solid var(--color-cornflower);
+
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -437,8 +440,6 @@ input[type="number"] {
 .header-navcontainer {
   display: flex;
   gap: 120px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-logo {
   color: var(--color-navy-blue);
@@ -452,17 +453,23 @@ input[type="number"] {
 
   text-decoration: none;
   text-transform: uppercase;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo-highlighted {
   color: var(--color-iris);
 }
 .menu-toggle {
-  border: none;
-  background-color: transparent;
+  /* border: none;
+  background-color: transparent; */
+
+  width: 32px;
+  height: 32px;
 }
 .header-menu-button {
-  border: none;
   cursor: pointer;
+  border: none;
   background: none;
 }
 
@@ -1167,6 +1174,13 @@ input[type="number"] {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header-wrapper {
+    justify-content: center;
+  }
+  .header-navcontainer {
+    margin-left: 76px;
+    margin-right: 332px;
+  }
   .footer-wraper {
     flex-direction: row;
   }
