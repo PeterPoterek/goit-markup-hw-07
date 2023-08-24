@@ -613,10 +613,6 @@ input[type="number"] {
   flex-direction: column;
 }
 .company-values-icon-container {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-
   display: none;
 }
 
@@ -628,7 +624,7 @@ input[type="number"] {
   line-height: 1.1111;
   letter-spacing: 0.72px;
 
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 
   text-transform: capitalize;
   text-align: center;
@@ -1193,6 +1189,34 @@ input[type="number"] {
 
     line-height: 1.5;
     letter-spacing: 0.32px;
+  }
+  .company-values-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+
+    /* max-width: 1128px; */
+  }
+  .company-values-icon-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+  .company-values-wrapper {
+    max-width: 264px;
+  }
+
+  .company-values-label {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+
+    padding-top: 8px;
+  }
+  .company-values-description {
+    font-size: 16px;
+    font-weight: 400;
   }
 }
 /* End of Media Queries */
