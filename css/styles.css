@@ -16,6 +16,8 @@ body {
   font-family: "Roboto", sans-serif;
 
   font-size: 16px;
+
+  overflow-x: hidden;
 }
 /* utility classes */
 .container {
@@ -1076,6 +1078,9 @@ input[type="number"] {
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
+  body {
+    overflow: visible;
+  }
   .mobile-menu-button-conatiner {
     display: none;
   }
