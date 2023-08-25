@@ -1039,7 +1039,7 @@ input[type="number"] {
   transform: translatey(0);
 }
 
-.gallery-wrapper {
+.gallery-card-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -1222,6 +1222,21 @@ input[type="number"] {
   }
   .filter-list {
     max-width: 600px;
+  }
+
+  .gallery-section {
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-image-list {
+    gap: 72px 24px;
+    justify-content: center;
+  }
+  .gallery-image-list-item:last-child {
+    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
