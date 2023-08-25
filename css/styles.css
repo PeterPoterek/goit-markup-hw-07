@@ -175,6 +175,9 @@ menu {
 
   max-width: 328px;
 }
+.mobile-menu-icon {
+  fill: var(--color-navy-blue);
+}
 /* end of mobile menu */
 
 /* modal */
@@ -463,11 +466,14 @@ input[type="number"] {
   color: var(--color-iris);
 }
 .menu-toggle {
-  /* border: none;
-  background-color: transparent; */
+  border: none;
+  background-color: transparent;
 
   width: 32px;
   height: 32px;
+
+  padding: 0;
+  margin: 0;
 }
 .header-menu-button {
   cursor: pointer;
