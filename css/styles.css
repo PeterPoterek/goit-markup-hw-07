@@ -1227,6 +1227,7 @@ input[type="number"] {
   .gallery-section {
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 96px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1234,9 +1235,6 @@ input[type="number"] {
   .gallery-image-list {
     gap: 72px 24px;
     justify-content: center;
-  }
-  .gallery-image-list-item:last-child {
-    justify-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1329,6 +1327,10 @@ input[type="number"] {
   }
   .footer-text {
     width: 264px;
+  }
+
+  .gallery-section {
+    padding-bottom: 120px;
   }
 }
 /* End of Media Queries */
