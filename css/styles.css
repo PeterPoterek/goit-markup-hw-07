@@ -1006,15 +1006,17 @@ input[type="number"] {
 /* Gallery section */
 
 .gallery-section {
-  padding-bottom: 120px;
+  padding-bottom: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .gallery-image-list {
   display: flex;
   flex-wrap: wrap;
 
-  justify-content: space-between;
-  gap: 48px 24px;
+  justify-content: center;
+  gap: 48px;
 }
 .gallery-card {
   text-decoration: none;
