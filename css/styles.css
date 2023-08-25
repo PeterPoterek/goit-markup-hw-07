@@ -551,6 +551,18 @@ input[type="number"] {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .hero-container {
+    background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url("../images/background-image-x2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
 .hero-wrapper {
   max-width: 1440px;
   height: 100%;
