@@ -962,6 +962,7 @@ input[type="number"] {
   display: flex;
   justify-content: center;
   align-items: center;
+
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 16px;
@@ -972,6 +973,7 @@ input[type="number"] {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  max-width: 355px;
 }
 .filter-item {
   color: var(--color-iris);
